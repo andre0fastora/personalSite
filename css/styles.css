@@ -1,0 +1,125 @@
+html {
+	scroll-behavior: smooth;
+}
+
+
+
+body {
+    margin: 0%;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    
+}
+
+@media (min-width:1000px)
+{
+    p {
+        margin: auto;
+        width: 40%;
+        text-align: center;
+        
+    }
+}
+
+p {
+    margin: 0 auto auto auto;
+    
+    text-align: center;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-bottom: 0%;
+    
+
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.project-thumbnail {
+    
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.name {
+    margin: 33% auto 0 auto;
+
+    
+}
+
+#navbar {
+    
+    background-color: #2a3d66;
+    padding: 0 2% 2% 2%;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    font-family: 'Secular One', sans-serif;
+}
+
+
+
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #9d65c9;
+    text-align: center;
+    
+    
+    
+    
+}
+
+#projects {
+    
+    background-color: #2a3d66;
+    padding: 16px;
+}
+
+#project-containter{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.project-thumbnail {
+    flex: 1;
+    
+    
+}
+
+#about-me {
+    background-color: #2a3d66;
+    margin: 0;
+    height: 25vh;
+}
+
+#contact-me {
+    background-color: #5d54a4;
+    margin: 0;
+    height: 10vh;
+}
